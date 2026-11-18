@@ -10,15 +10,15 @@ on:
 
 jobs:
   say-hello:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-  steps:
-    -name: Say hello to everyone
-    run: echo "Hello to everyone"
+    steps:
+        - name: Say hello to everyone
+          run: echo "Hello to everyone"
     
 
 # Steps
-# Should be inside job
+# Should be inside the job
 
 # Actions
 # Should be inside Steps
